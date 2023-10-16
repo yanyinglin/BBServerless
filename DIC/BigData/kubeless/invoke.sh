@@ -1,0 +1,1 @@
+kubeless function deploy bigdata --from-file ./handler.py  --handler handler.handler -r python3.8 -n kubeless --cpu 1000m --timeout 240 --memory 1024Mi 
